@@ -5,7 +5,6 @@ from werkzeug.utils import secure_filename
 from datetime import timedelta
 
 second = Blueprint("second", __name__)
-#second.permanent_session_lifetime = timedelta(seconds=10)
 
 
 
